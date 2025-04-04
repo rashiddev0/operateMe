@@ -1,0 +1,37 @@
+client:536 WebSocket connection to 'wss://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/?token=Nd362ai_K4oe' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=Nd362ai_K4oe' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=1d48bd22:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+api/user:1 
+            
+            
+           Failed to load resource: the server responded with a status of 401 (Unauthorized)
+chunk-RPCDYKBN.js?v=1d48bd22:521 Warning: A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://reactjs.org/link/controlled-components
+    at input
+    at _c (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/input.tsx:20:11)
+    at https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DKHUMOWT.js?v=1d48bd22:52:11
+    at https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DKHUMOWT.js?v=1d48bd22:33:11
+    at https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/form.tsx:129:9
+    at div
+    at https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/form.tsx:71:6
+    at Controller (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YABUFNLM.js?v=1d48bd22:313:35)
+    at FormField (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/form.tsx:32:6)
+    at form
+    at FormProvider (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YABUFNLM.js?v=1d48bd22:102:11)
+    at div
+    at _c9 (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/card.tsx:20:11)
+    at div
+    at div
+    at RegisterPage (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/pages/register-page.tsx:31:17)
+    at Route (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1d48bd22:323:16)
+    at Switch (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1d48bd22:379:17)
+    at Router
+    at AuthProvider (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/hooks/use-auth.tsx:27:32)
+    at QueryClientProvider (https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1d48bd22:2805:3)
+    at App
+printWarning @ chunk-RPCDYKBN.js?v=1d48bd22:521

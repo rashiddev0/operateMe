@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @font-face {
+            font-family: 'Madani Arabic';
+            src: url('https://fonts.gstatic.com/s/madaniarabic/v2/web-fonts/madani-arabic-v2.woff2') format('woff2');
+        }
+
+        @page {
+            size: A4;
+            margin: 1.5cm;
+            background-image: url('lightning_road_bg.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        body {
+            font-family: 'Madani Arabic', Arial, sans-serif;
+            direction: rtl;
+            padding: 0;
+            margin: 0;
+            font-size: 11pt;
+            line-height: 1.4;
+            position: relative;
+            z-index: 2;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 2;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .qr-code-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80px;
+            height: 80px;
+            z-index: 3;
+        }
+
+        .qr-code {
+            width: 100%;
+            height: 100%;
+        }
+
+        .main-content {
+            margin-right: 0;
+            margin-left: 80px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 18pt;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .agreement {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .info-box {
+            border: 1px solid #000;
+            margin-bottom: 15px;
+            background-color: rgba(255, 255, 255, 0.97);
+        }
+
+        .info-box-header {
+            background-color: #f0f0f0;
+            padding: 6px 12px;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            font-size: 10pt;
+        }
+
+        .info-box-content {
+            padding: 10px 12px;
+        }
+
+        .info-box-content p {
+            margin: 3px 0;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="qr-code-container">
+            <img class="qr-code" src="{{ qr_code }}" alt="QR Code">
+        </div>
+
+        <div class="main-content">
+            <div class="title">عقد نقل على الطرق البرية</div>
+
+            <div class="agreement">
+                <p>التاريخ: {{ date }}</p>
+                <p>تم ابرام هذا العقد بين المتعاقدين بناء على المادة (39) التاسعة و الثلاثون من اللائحة المنظمة لنشاط النقل المتخصص و تأجير و توجيه الحافلات و بناء على الفقرة (1) من المادة (39) و التي تنص على ان يجب على الناقل ابرام عقد نقل مع الاطراف المحددين في المادة (40) قبل تنفيذ عمليات النقل على الطرق البرية و بما يخالف احكام هذه الائحة التي تحددها هيئة النقل و بناء على ما سبق تم ابرام عقد النقل بين الاطراف الاتية :</p>
+                <p>الطرف الاول : شركة صاعقة الطريق للنقل البري (شخص واحد)</p>
+                <p>الطرف الثاني : {{ main_passenger }}</p>
+                <p>اتفق الطرفان على أن ينفذ الطرف اول عملية النقل للطرف الثاني مع مرافقيه و ذويهم من الموقع المحدد مسبقا مع الطرف الثاني و توصيلهم الى الجهه المحدده بالعقد ۔</p>
+                <p>النقل من : {{ from_city }}</p>
+                <p>الوصول الى : {{ to_city }}</p>
+                <p>في حالة الغاء التعاقد الى سبب شخصى او أسباب أخرى تتعلق في الحجوزات او الانظمة تكون سياسة إلالغاء و الاستبدال حسب نظام وزارة التجارة السعودى في حالة الحجز و تم الإلغاء قبل موعد الرحله بأكثر من 24 ساعه يتم استرداد المبلغ كامل .</p>
+                <p>وفي حالة طلب المبلغ كامل الطرف الثاني الحجز من خلال الموقع الالكتروني لشركة يعتبر هذا الحجز و موافقته على الشروط و الحكام بالموقع الالكتروني هو موافقة على هذا العقد لتنفيذ عملية النقل المتفق عليها مع الطرف الاول بواسطة حافلات الشركة المرخصه و المتوافقه مع الاشتراطات المقررة من هيئة النقل ۔</p>
+            </div>
+
+            <div class="info-box">
+                <div class="info-box-header">معلومات الرحلة / Trip Information</div>
+                <div class="info-box-content">
+                    <p>التاريخ / Date: {{ date }}</p>
+                    <p>من / From: {{ from_city }}</p>
+                    <p>إلى / To: {{ to_city }}</p>
+                    <p>نوع التأشيرة / Visa Type: {{ visa_type }}</p>
+                    <p>رقم الرحلة / Trip No.: {{ trip_number }}</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="info-box-header">معلومات السائق / Driver Information</div>
+                <div class="info-box-content">
+                    <p>اسم السائق / Driver Name: {{ driver_name }}</p>
+                    <p>رقم الهوية / ID Number: {{ driver_id }}</p>
+                    <p>رقم الرخصة / License Number: {{ license_number }}</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="info-box-header">معلومات الركاب / Passenger Information</div>
+                <div class="info-box-content">
+                    {% for passenger in passengers %}
+                    <p>{{ loop.index }}. {{ passenger.name }}</p>
+                    <p>رقم الهوية / ID: {{ passenger.id_number }}</p>
+                    <p>الجنسية / Nationality: {{ passenger.nationality }}</p>
+                    {% if not loop.last %}<br>{% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

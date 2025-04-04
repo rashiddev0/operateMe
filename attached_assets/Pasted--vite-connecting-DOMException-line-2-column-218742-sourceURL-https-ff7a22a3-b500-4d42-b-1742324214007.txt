@@ -1,0 +1,26 @@
+[vite] connecting...
+DOMException {line: 2, column: 218742, sourceURL: "https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devt…"}
+
+Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
+t@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12639
+value@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32772
+@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34410
+null is not an object (evaluating 'dispatcher.useEffect')
+Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
+null is not an object (evaluating 'dispatcher.useEffect')
+The above error occurred in the <QueryClientProvider> component:
+
+QueryClientProvider@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js:2805:9
+App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+null is not an object (evaluating 'dispatcher.useEffect')

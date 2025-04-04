@@ -1,0 +1,30 @@
+[vite] connecting...
+[vite] connected.
+Warning: A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://reactjs.org/link/controlled-components
+input
+_c@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/input.tsx:20:9
+SlotClone@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DKHUMOWT.js:52:9
+Slot@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DKHUMOWT.js:33:9
+FormControl@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/form.tsx:129:4
+div
+FormItem@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/form.tsx:71:4
+Controller@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YABUFNLM.js:313:34
+FormField@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/form.tsx:31:20
+form
+FormProvider@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YABUFNLM.js:102:9
+div
+_c9@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/card.tsx:114:10
+div
+_c@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/components/ui/card.tsx:20:9
+div
+div
+DriverLoginPage@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/pages/driver-login.tsx:31:31
+Route@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js:323:14
+Switch@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js:380:27
+Router
+AuthProvider@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/src/hooks/use-auth.tsx:27:5
+QueryClientProvider@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js:2805:9
+App
+t@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12639
+value@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32772
+@https://ff7a22a3-b500-4d42-b5a5-28ff0af8d6a5-00-1ojo9vzl3ukrf.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34410
